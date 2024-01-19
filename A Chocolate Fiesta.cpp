@@ -37,6 +37,7 @@ int main(){
     // cout<<power(2,0);
     if(odd!=0){
         o_odd=(power(2,odd) % mod)* (inverse(2,mod-2) % mod ) % mod ;
+        //o_odd=(power(2,odd-1)%mod;
         o_odd--;
     }
     // cout<<o_odd;
